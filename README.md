@@ -7,7 +7,7 @@
 
 - Write a buildTree function that takes an array of data (e.g., [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a balanced binary tree full of Node objects appropriately placed (don’t forget to sort and remove duplicates!). The buildTree function should return the level-0 root node.
 
-<!-- - Write insert and delete functions that accepts a value to insert/delete. You’ll have to deal with several cases for delete, such as when a node has children or not. -->
+- Write insert and delete functions that accepts a value to insert/delete. You’ll have to deal with several cases for delete, such as when a node has children or not.
 
 - Write a find function that accepts a value and returns the node with the given value.
 
@@ -24,3 +24,16 @@
 
 - Write a rebalance function that rebalances an unbalanced tree.
 > Tip: You’ll want to use a traversal method to provide a new array to the buildTree function.
+
+##Tie it all together
+
+Write a driver script that does the following:
+
+    1.Create a binary search tree from an array of random numbers < 100. You can create a function that returns an array of random numbers every time you call it if you wish.
+    1.Confirm that the tree is balanced by calling isBalanced.
+    1.Print out all elements in level, pre, post, and in order.
+    1.Unbalance the tree by adding several numbers > 100.
+    1.Confirm that the tree is unbalanced by calling isBalanced.
+    1.Balance the tree by calling rebalance.
+    1.Confirm that the tree is balanced by calling isBalanced.
+    1.Print out all elements in level, pre, post, and in order.
