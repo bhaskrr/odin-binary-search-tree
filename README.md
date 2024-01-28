@@ -25,9 +25,9 @@
 - Write a rebalance function that rebalances an unbalanced tree.
 > Tip: You’ll want to use a traversal method to provide a new array to the buildTree function.
 
-## Tie it all together
+# Tie it all together
 
-Write a driver script that does the following:
+## Write a driver script that does the following:
 
     1. Create a binary search tree from an array of random numbers < 100. You can create a function that returns an array of random numbers every time you call it if you wish.
     1. Confirm that the tree is balanced by calling isBalanced.
