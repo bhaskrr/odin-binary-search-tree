@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "odin-binary-search-tree",
+  "description": "- Build a Node class/factory. It should have an attribute for the data it stores as well as its left and right children.",
+  "version": "1.0.0",
+  "main": "driver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskrr/odin-binary-search-tree.git"
+  },
+  "author": "Bhaskar Bordoloi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskrr/odin-binary-search-tree/issues"
+  },
+  "homepage": "https://github.com/bhaskrr/odin-binary-search-tree#readme"
+}
